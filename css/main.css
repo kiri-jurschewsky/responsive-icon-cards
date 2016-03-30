@@ -59,4 +59,76 @@ ul {
   html {
     font-size: 110%;
   }
+
+  .card {
+    margin-bottom: 1rem;
+  }
+
+  .card-img {
+    display: inline-block;
+  }
+
+  .card-body {
+    width: 50%;
+  }
+
+  .card-body h2 {
+    margin: 0;
+  }
+
+  .card-body p {
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 38em) {
+
+  .card {
+    width: 50%;
+  }
+
+  .card-img {
+    display: block;
+  }
+
+  li.card {
+    vertical-align: text-top;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+  }
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
+  .card {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .card-img {
+    display: inline-block;
+  }
+
+  .card-body {
+    width: 50%;
+  }
+
+  .card-body h2 {
+    margin: 0;
+  }
+
+  .card-body p {
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
 }
