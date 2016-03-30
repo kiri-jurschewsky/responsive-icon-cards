@@ -5,7 +5,7 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -13,10 +13,21 @@ html {
   font-family: sans-serif;
 }
 
-
-
 *, *::before, *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.cards {
+  list-style-type: none;
+}
+
+.card {
+  margin: 0;
 }
 
 .card-img {
@@ -24,4 +35,28 @@ html {
   display: block;
   margin-right: auto;
   margin-left: auto;
+}
+
+.card-img img {
+  margin: 0;
+}
+
+.card-body h2 {
+  font-weight: normal;
+}
+
+.card-body p {
+  font-weight: lighter;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+@media only screen and (min-width: 25em) {
+
+  html {
+    font-size: 110%;
+  }
 }
