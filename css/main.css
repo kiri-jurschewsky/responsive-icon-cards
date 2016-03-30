@@ -18,3 +18,10 @@ html {
 *, *::before, *::after {
 	box-sizing: inherit;
 }
+
+.card-img {
+  width: 50px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
